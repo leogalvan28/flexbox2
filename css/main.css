@@ -285,3 +285,156 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+header nav{
+    background-color: black;
+    opacity: .5;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+   
+
+}
+
+header .navegacion{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+a{
+    color: white;
+    font-family: helvetica;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.container1{
+    height: 800px;
+    width: 100%;
+    background-image: url(http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container1 h1 {
+    font-size: 60px;
+    font-family: helvetica;
+}
+
+.container1 p{
+    background-color: black;
+    opacity: .5;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color:white;
+}
+
+#contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container2 h2,p{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container2 p{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: helvetica;
+}
+
+.container3 h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container3 p{
+    font-size: 18px;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+.contenedor4 h2{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor4 p{
+      font-size: 18px;
+    font-family: helvetica;
+    font-weight: bold;
+
+}
+
+
+footer{
+    width: 100%;
+    background-color: black;
+    opacity: .5;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: helvetica;
+}
+
+.icon_button1{
+   
+    background-color: black;
+    opacity: .5;
+    color: white;
+    font-family: helvetica;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+
+
+}
+
+.icon_button2 {
+    background-color: black;
+    opacity: .5;
+    color: white;
+    font-family: helvetica;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.icon_button3{
+    background-color: black;
+    opacity: .5;
+    color: white;
+    font-family: helvetica;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
